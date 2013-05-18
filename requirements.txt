@@ -1,0 +1,4 @@
+Mako==0.8.0
+clastic==0.2.4
+pyquery==1.2.4
+-e git+https://github.com/mahmoud/wapiti.git@4155cdcd6a42c0345ba9dbb2ab0c21961f88bb7e#egg=wapiti-dev

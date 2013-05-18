@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+    <title>Guess the Wikipedia Language</title>
+    <meta name="google" value="notranslate">
+    <script src='/static/jquery-1.8.1.min.js' type="text/javascript"></script>
+    <script>
+    var encourage = function() {
+        var msgs = ['No, not exactly...',
+                    "Oh no! That's not it",
+                    'No, try another',
+                    'Hmm, not that one']
+        var index = Math.floor(Math.random() * msgs.length)
+        return msgs[index]
+    }
+    var congradulate = function () {
+        var msgs = [' - Correct. Great job!',
+                    ' - Correct. Way to go!']
+        var index = Math.floor(Math.random() * msgs.length)
+        return msgs[index]
+    }
+    $(function(){
+        $('li.choice').hover(
+        function() {
+            if (!$(this).hasClass('success')) {
+                $(this).addClass('choice-over');
+            }
+        },
+        function() {
+            $(this).removeClass('choice-over');
+        })
+        .click(function() {
+            if ($(this).hasClass('correct')) {
+                $(this).children('span.message').html(congradulate())
+                $(this).addClass('success')
+                $('.load-more').addClass('bigger')
+            } else {
+                $(this).addClass('choice-selected');
+                $(this).children('span.message').html(encourage())
+            }
+        });
+    });
+    </script>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+        h1, h2, h3 {
+            padding: .5em;
+            padding-left: 0;
+        }
+        p {
+            line-height: 1.5em;
+            margin-bottom: .5em;
+        }
+        a {
+            color: #306596;
+        }
+        a:hover {
+            color: #cc4731;
+        }
+        .wrapper {
+            overflow: hidden; /* To clear contents */
+            zoom: 1; /* To fix IE6 bugs with floats */
+        }
+        .content {
+            margin: 1em auto 4em auto;
+            width: 960px;
+            position:relative;
+        }
+        .choices {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 2em;
+        }
+        .choice {
+            padding: 1em;
+        }
+        .choice-over {
+            background-color: #CCC;
+            cursor: pointer;
+        }
+        .choice-selected span.c {
+            color: #cc4731;
+            text-decoration: line-through;
+        }
+        .choice-selected span {
+            color: #000;
+            text-decoration: none;
+        }
+        .success {
+            background-color: #eddc4e;
+        }
+        .bigger {
+            font-size: 3em;
+            background-color: #ccc;
+            margin: 1em;
+        }
+        .load-more {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div id="wrapper">
+            <h1>Which Language Wikipedia?</h1>
+            <h2>... where will you find an article on "${title}":</h2>
+            <p class='sample'>${sample}</p>
+            <h2>Choices:</h2>
+            <ul class='choices'>
+            % for choice in choices:
+                % if choice == correct:
+                <li class='choice correct'><span class='c'>${choice}</span> <span class='message'></span></li>
+                % else:
+                <li class='choice'><span class='c'>${choice}</span> <span class='message'></span></li>
+                % endif
+            % endfor
+            </ul>
+            <p class='load-more'><a href='/'>Try another round!</a></p>
+        </div>
+    </div>
+</body>
+</html>
