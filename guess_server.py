@@ -303,13 +303,6 @@ def get_text(element):
     return text
 
 
-def get_new_random_lang(langs=[]):
-    lang = random.choice(_LANG_DICT.keys())
-    while lang in langs:
-        lang = random.choice(_LANG_DICT.keys())
-    return lang
-
-
 def get_sample(page_text):
     _, __, sample = page_text.partition('\n\n\n')
     sample = sample[:500]
@@ -319,7 +312,7 @@ def get_sample(page_text):
 
 
 def get_random_page():
-    lang = get_new_random_lang()
+    lang = random.choice(_LANG_DICT.keys())
     lang_url = 'http://' + _LANG_DICT[lang] + '.wikipedia.org/'
     lang_api_url = lang_url + 'w/api.php'
     wc = wapiti.WapitiClient('languagegame@hatnote.com',
@@ -335,8 +328,7 @@ def language_game():
     choices = []
     correct, contents, title = get_random_page()
     choices.append(correct)
-    for i in range(4):
-        choices.append(get_new_random_lang(langs=choices))
+    choices.extend(random.sample(_LANG_DICT.keys(), 4))
     random.shuffle(choices)
     pq = PyQuery(contents[0])
     # Is PyQuery even necessary?
@@ -359,5 +351,4 @@ def create_game():
 
 
 if __name__ == '__main__':
-    game = language_game()
     create_game().serve(static_path=_STATIC_PATH)
