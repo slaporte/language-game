@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from pyquery import PyQuery
 import wapiti
 import random
@@ -25,7 +27,7 @@ _LANG_DICT = {
     "Vietnamese": "vi",
     "Ukrainian": "uk",
     "Catalan": "ca",
-    "Waray- Waray":    "war",
+    "Waray-Waray":    "war",
     "Cebuano": "ceb",
     "Finnish": "fi",
     "Persian": "fa",
@@ -49,10 +51,10 @@ _LANG_DICT = {
     "Croatian": "hr",
     "Slovenian": "sl",
     "Uzbek": "uz",
-    "Volap\ u00fck":    "vo",
+    "Volap\u00fck":    "vo",
     "Estonian": "et",
     "Hindi": "hi",
-    "Norwegian ( Nynorsk)":    "nn",
+    "Norwegian (Nynorsk)":    "nn",
     "Galician": "gl",
     "Simple English ":    "simple",
     "Azerbaijani": "az",
@@ -63,14 +65,14 @@ _LANG_DICT = {
     "Georgian": "ka",
     "Macedonian": "mk",
     "Occitan": "oc",
-    "Newar \/ Nepal Bhasa":    "new",
+    "Newar/Nepal Bhasa":    "new",
     "Piedmontese": "pms",
     "Tagalog": "tl",
     "Belarusian": "be",
     "Tamil": "ta",
     "Haitian": "ht",
     "Telugu": "te",
-    "Belarusian ( Tara\u0161kievica)":    "be-x-old",
+    "Belarusian (Tara\u0161kievica)":    "be-x-old",
     "Welsh": "cy",
     "Latvian": "lv",
     "Bosnian": "bs",
@@ -149,7 +151,7 @@ _LANG_DICT = {
     "Punjabi": "pa",
     "Gilaki": "glk",
     "Rusyn": "rue",
-    "Central_Bicolano": "bcl",
+    "Central Bicolano": "bcl",
     "V\ u00f5ro":    "fiu-vro",
     "Hill Mari ":    "mrj",
     "Dutch Low Saxon":    "nds-nl",
@@ -238,7 +240,7 @@ _LANG_DICT = {
     "Kongo": "kg",
     "Nauruan": "na",
     "Igbo": "ig",
-    "Buryat ( Russia)":    "bxr",
+    "Buryat (Russia)":    "bxr",
     "Northern Sotho ":    "nso",
     "Zhuang": "za",
     "Karakalpak": "kaa",
@@ -303,13 +305,6 @@ def get_text(element):
     return text
 
 
-def get_new_random_lang(langs=[]):
-    lang = random.choice(_LANG_DICT.keys())
-    while lang in langs:
-        lang = random.choice(_LANG_DICT.keys())
-    return lang
-
-
 def get_sample(page_text):
     _, __, sample = page_text.partition('\n\n\n')
     sample = sample[:500]
@@ -319,7 +314,7 @@ def get_sample(page_text):
 
 
 def get_random_page():
-    lang = get_new_random_lang()
+    lang = random.choice(_LANG_DICT.keys())
     lang_url = 'http://' + _LANG_DICT[lang] + '.wikipedia.org/'
     lang_api_url = lang_url + 'w/api.php'
     wc = wapiti.WapitiClient('languagegame@hatnote.com',
@@ -335,8 +330,7 @@ def language_game():
     choices = []
     correct, contents, title = get_random_page()
     choices.append(correct)
-    for i in range(4):
-        choices.append(get_new_random_lang(langs=choices))
+    choices.extend(random.sample(_LANG_DICT.keys(), 4))
     random.shuffle(choices)
     pq = PyQuery(contents[0])
     # Is PyQuery even necessary?
@@ -359,5 +353,4 @@ def create_game():
 
 
 if __name__ == '__main__':
-    game = language_game()
     create_game().serve(static_path=_STATIC_PATH)
