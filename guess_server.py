@@ -301,7 +301,7 @@ def get_text(element):
     if hasattr(element, 'text_content'):  # lxml 2
         text = element.text_content()
     else:
-        text = ''.join(element.itertext())
+        text = u''.join(element.itertext())
     return text
 
 
@@ -315,7 +315,7 @@ def get_sample(page_text):
 
 def get_random_page():
     lang = random.choice(_LANG_DICT.keys())
-    # lang = 'English'  # a good way to debug
+    #lang = 'Spanish'  # a good way to debug
     lang_url = 'http://%s.wikipedia.org/' % (_LANG_DICT[lang],)
     lang_api_url = pjoin(lang_url, 'w/api.php')
     wc = wapiti.WapitiClient('languagegame@hatnote.com',
@@ -333,7 +333,8 @@ def language_game(attempt=0):
     choices.append(correct)
     choices.extend(random.sample(_LANG_DICT.keys(), 4))
     random.shuffle(choices)
-    pq = PyQuery(contents[0])
+    decoded_contents = contents[0].decode('utf-8')
+    pq = PyQuery(decoded_contents)
     # Is PyQuery even necessary?
     content_div = pq('div#mw-content-text')
     paragraphs = content_div.find('p')
