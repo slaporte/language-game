@@ -104,13 +104,21 @@
         .load-more {
             text-align: center;
         }
+        .sample {
+            border: 1px solid #d8e6ec;
+            padding: 2em;
+        }
+        .article-title {
+            text-decoration: underline;
+            color: blue;
+        }
     </style>
 </head>
 <body>
     <div class="content">
         <div id="wrapper">
             <h1>Which Language Wikipedia?</h1>
-            <h2>... where will you find an article on "${title}":</h2>
+            <h2><span class="article-title">${title}</span></h2>
             <p class='sample'>${sample}</p>
             <h2>Choices:</h2>
             <ul class='choices'>
