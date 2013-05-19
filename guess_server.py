@@ -306,27 +306,28 @@ def get_text(element):
 
 
 def get_sample(page_text):
-    _, __, sample = page_text.partition('\n\n\n')
-    sample = sample[:500]
+    sample = page_text[:500]
     if len(sample) == 500:
         sample = sample.rsplit(None, 1)[0]
-    return sample + ' ...'
+        return sample + ' ...'
+    return sample
 
 
 def get_random_page():
     lang = random.choice(_LANG_DICT.keys())
-    lang_url = 'http://' + _LANG_DICT[lang] + '.wikipedia.org/'
-    lang_api_url = lang_url + 'w/api.php'
+    # lang = 'English'  # a good way to debug
+    lang_url = 'http://%s.wikipedia.org/' % (_LANG_DICT[lang],)
+    lang_api_url = pjoin(lang_url, 'w/api.php')
     wc = wapiti.WapitiClient('languagegame@hatnote.com',
                              api_url=lang_api_url)
     pages = wc.get_random_articles(limit=1)
     page_title = pages[0].title
-    page_url = lang_url + '/wiki/' + page_title
+    page_url = pjoin(lang_url, 'wiki', page_title)
     contents = wc.web_request_operation(page_url)
     return lang, contents, page_title
 
 
-def language_game():
+def language_game(attempt=0):
     choices = []
     correct, contents, title = get_random_page()
     choices.append(correct)
@@ -334,9 +335,15 @@ def language_game():
     random.shuffle(choices)
     pq = PyQuery(contents[0])
     # Is PyQuery even necessary?
-    page_text = get_text(pq('div#mw-content-text')[0])
+    content_div = pq('div#mw-content-text')
+    paragraphs = content_div.find('p')
+    try:
+        sample_p = paragraphs[0]
+    except IndexError:
+        # TODO: a much better retry
+        return language_game(attempt=attempt + 1)
+    page_text = get_text(sample_p)
     sample = get_sample(page_text)
-    # TODO: fix "Saved in parser cache", remove "From Wikipedia..."
     ret = {
         'correct': correct,
         'choices': choices,
