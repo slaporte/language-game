@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 
-from pyquery import PyQuery
-import wapiti
-import random
 import os
 from os.path import join as pjoin
+import random
+
+from pyquery import PyQuery
+
+import wapiti
 from clastic import Application
 from clastic.render.mako_templates import MakoRenderFactory
+
 
 _CURDIR = os.path.abspath(os.path.dirname(__file__))
 _TEMPLATE_PATH = pjoin(_CURDIR, 'templates')
