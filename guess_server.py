@@ -92,12 +92,13 @@ def language_game(attempt=0):
         return language_game(attempt=attempt + 1)
     page_text = get_text(sample_p)
     sample = get_sample(page_text)
+    correct_info = _LANG_DICT[correct]._asdict()
     ret = {
         'correct': correct,
+        'correct_info': correct_info,
         'choices': choices,
         'sample': sample,
-        'title': title
-    }
+        'title': title}
     return ret
 
 
