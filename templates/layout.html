@@ -63,14 +63,16 @@
         a:hover {
             color: #cc4731;
         }
-        .wrapper {
+        #wrapper {
+            margin: auto 2em;
             overflow: hidden; /* To clear contents */
             zoom: 1; /* To fix IE6 bugs with floats */
         }
         .content {
             margin: 1em auto 4em auto;
-            width: 960px;
-            position:relative;
+            max-width: 960px;
+            min-width: 240px;
+            position: relative;
         }
         .choices {
             list-style: none;
