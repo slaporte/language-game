@@ -10,8 +10,6 @@ dist/*
 ._*
 .\#*
 \#*\#
-*.csv
-*.json
 log*
 build/*
 *.swp

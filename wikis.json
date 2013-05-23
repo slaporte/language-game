@@ -1,0 +1,2282 @@
+[
+  [
+    "English", 
+    "English language", 
+    "en", 
+    4234378, 
+    129657, 
+    763
+  ], 
+  [
+    "German", 
+    "German language", 
+    "de", 
+    1585992, 
+    20931, 
+    89
+  ], 
+  [
+    "Dutch", 
+    "Dutch language", 
+    "nl", 
+    1568516, 
+    4646, 
+    10
+  ], 
+  [
+    "French", 
+    "French language", 
+    "fr", 
+    1386998, 
+    17773, 
+    162
+  ], 
+  [
+    "Italian", 
+    "Italian language", 
+    "it", 
+    1033404, 
+    7922, 
+    94
+  ], 
+  [
+    "Spanish", 
+    "Spanish language", 
+    "es", 
+    1016704, 
+    16590, 
+    168
+  ], 
+  [
+    "Russian", 
+    "Russian language", 
+    "ru", 
+    1002601, 
+    11844, 
+    106
+  ], 
+  [
+    "Swedish", 
+    "Swedish language", 
+    "sv", 
+    974213, 
+    2928, 
+    21
+  ], 
+  [
+    "Polish", 
+    "Polish language", 
+    "pl", 
+    967547, 
+    4757, 
+    18
+  ], 
+  [
+    "Japanese", 
+    "Japanese language", 
+    "ja", 
+    858311, 
+    12001, 
+    63
+  ], 
+  [
+    "Portuguese", 
+    "Portuguese language", 
+    "pt", 
+    781814, 
+    5695, 
+    110
+  ], 
+  [
+    "Chinese", 
+    "Chinese language", 
+    "zh", 
+    694714, 
+    7496, 
+    99
+  ], 
+  [
+    "Vietnamese", 
+    "Vietnamese language", 
+    "vi", 
+    579406, 
+    1118, 
+    23
+  ], 
+  [
+    "Ukrainian", 
+    "Ukrainian language", 
+    "uk", 
+    442808, 
+    2058, 
+    40
+  ], 
+  [
+    "Catalan", 
+    "Catalan language", 
+    "ca", 
+    402715, 
+    1500, 
+    26
+  ], 
+  [
+    "Norwegian (Bokm\u00e5l)", 
+    "Norwegian (Bokm\u00e5l) language", 
+    "no", 
+    380196, 
+    1836, 
+    28
+  ], 
+  [
+    "Waray-Waray", 
+    "Waray-Waray language", 
+    "war", 
+    377380, 
+    62, 
+    3
+  ], 
+  [
+    "Cebuano", 
+    "Cebuano language", 
+    "ceb", 
+    359336, 
+    64, 
+    4
+  ], 
+  [
+    "Finnish", 
+    "Finnish language", 
+    "fi", 
+    322637, 
+    1765, 
+    46
+  ], 
+  [
+    "Persian", 
+    "Persian language", 
+    "fa", 
+    307792, 
+    2396, 
+    157
+  ], 
+  [
+    "Czech", 
+    "Czech language", 
+    "cs", 
+    265545, 
+    2033, 
+    39
+  ], 
+  [
+    "Hungarian", 
+    "Hungarian language", 
+    "hu", 
+    240342, 
+    1925, 
+    100
+  ], 
+  [
+    "Korean", 
+    "Korean language", 
+    "ko", 
+    239090, 
+    1930, 
+    81
+  ], 
+  [
+    "Arabic", 
+    "Arabic language", 
+    "ar", 
+    229755, 
+    3061, 
+    237
+  ], 
+  [
+    "Romanian", 
+    "Romanian language", 
+    "ro", 
+    225824, 
+    1063, 
+    87
+  ], 
+  [
+    "Malay", 
+    "Malay language", 
+    "ms", 
+    218599, 
+    346, 
+    18
+  ], 
+  [
+    "Turkish", 
+    "Turkish language", 
+    "tr", 
+    209621, 
+    2697, 
+    216
+  ], 
+  [
+    "Indonesian", 
+    "Indonesian language", 
+    "id", 
+    208967, 
+    1740, 
+    108
+  ], 
+  [
+    "Kazakh", 
+    "Kazakh language", 
+    "kk", 
+    202431, 
+    331, 
+    7
+  ], 
+  [
+    "Serbian", 
+    "Serbian language", 
+    "sr", 
+    187802, 
+    738, 
+    63
+  ], 
+  [
+    "Slovak", 
+    "Slovak language", 
+    "sk", 
+    183804, 
+    571, 
+    18
+  ], 
+  [
+    "Esperanto", 
+    "Esperanto language", 
+    "eo", 
+    180243, 
+    409, 
+    18
+  ], 
+  [
+    "Danish", 
+    "Danish language", 
+    "da", 
+    178310, 
+    1079, 
+    66
+  ], 
+  [
+    "Lithuanian", 
+    "Lithuanian language", 
+    "lt", 
+    158599, 
+    376, 
+    18
+  ], 
+  [
+    "Basque", 
+    "Basque language", 
+    "eu", 
+    150918, 
+    306, 
+    21
+  ], 
+  [
+    "Bulgarian", 
+    "Bulgarian language", 
+    "bg", 
+    147501, 
+    756, 
+    29
+  ], 
+  [
+    "Hebrew", 
+    "Hebrew language", 
+    "he", 
+    146423, 
+    2297, 
+    248
+  ], 
+  [
+    "Croatian", 
+    "Croatian language", 
+    "hr", 
+    137483, 
+    512, 
+    36
+  ], 
+  [
+    "Slovenian", 
+    "Slovenian language", 
+    "sl", 
+    137136, 
+    530, 
+    20
+  ], 
+  [
+    "Uzbek", 
+    "Uzbek language", 
+    "uz", 
+    122125, 
+    84, 
+    41
+  ], 
+  [
+    "Volap\u00fck", 
+    "Volap\u00fck language", 
+    "vo", 
+    119097, 
+    34, 
+    15
+  ], 
+  [
+    "Estonian", 
+    "Estonian language", 
+    "et", 
+    111246, 
+    486, 
+    31
+  ], 
+  [
+    "Hindi", 
+    "Hindi language", 
+    "hi", 
+    105403, 
+    210, 
+    45
+  ], 
+  [
+    "Norwegian (Nynorsk)", 
+    "Norwegian (Nynorsk) language", 
+    "nn", 
+    102885, 
+    232, 
+    20
+  ], 
+  [
+    "Galician", 
+    "Galician language", 
+    "gl", 
+    102175, 
+    286, 
+    19
+  ], 
+  [
+    "Simple English", 
+    "Simple English language", 
+    "simple", 
+    98950, 
+    732, 
+    76
+  ], 
+  [
+    "Azerbaijani", 
+    "Azerbaijani language", 
+    "az", 
+    94642, 
+    381, 
+    27
+  ], 
+  [
+    "Latin", 
+    "Latin language", 
+    "la", 
+    90473, 
+    236, 
+    12
+  ], 
+  [
+    "Greek", 
+    "Greek language", 
+    "el", 
+    87530, 
+    732, 
+    48
+  ], 
+  [
+    "Serbo-Croatian", 
+    "Serbo-Croatian language", 
+    "sh", 
+    81258, 
+    216, 
+    20
+  ], 
+  [
+    "Thai", 
+    "Thai language", 
+    "th", 
+    81081, 
+    1012, 
+    208
+  ], 
+  [
+    "Georgian", 
+    "Georgian language", 
+    "ka", 
+    75756, 
+    201, 
+    38
+  ], 
+  [
+    "Macedonian", 
+    "Macedonian language", 
+    "mk", 
+    72106, 
+    515, 
+    0
+  ], 
+  [
+    "Occitan", 
+    "Occitan language", 
+    "oc", 
+    71969, 
+    109, 
+    8
+  ], 
+  [
+    "Newar / Nepal Bhasa", 
+    "Newar / Nepal Bhasa language", 
+    "new", 
+    70069, 
+    29, 
+    12
+  ], 
+  [
+    "Piedmontese", 
+    "Piedmontese language", 
+    "pms", 
+    61486, 
+    37, 
+    2
+  ], 
+  [
+    "Tagalog", 
+    "Tagalog language", 
+    "tl", 
+    61433, 
+    113, 
+    33
+  ], 
+  [
+    "Belarusian", 
+    "Belarusian language", 
+    "be", 
+    59512, 
+    227, 
+    22
+  ], 
+  [
+    "Tamil", 
+    "Tamil language", 
+    "ta", 
+    53429, 
+    253, 
+    32
+  ], 
+  [
+    "Haitian", 
+    "Haitian language", 
+    "ht", 
+    53204, 
+    30, 
+    0
+  ], 
+  [
+    "Telugu", 
+    "Telugu language", 
+    "te", 
+    52081, 
+    110, 
+    13
+  ], 
+  [
+    "Belarusian (Tara\u0161kievica)", 
+    "Belarusian (Tara\u0161kievica) language", 
+    "be-x-old", 
+    49061, 
+    159, 
+    32
+  ], 
+  [
+    "Welsh", 
+    "Welsh language", 
+    "cy", 
+    48791, 
+    100, 
+    28
+  ], 
+  [
+    "Latvian", 
+    "Latvian language", 
+    "lv", 
+    48506, 
+    269, 
+    100
+  ], 
+  [
+    "Bosnian", 
+    "Bosnian language", 
+    "bs", 
+    45940, 
+    180, 
+    149
+  ], 
+  [
+    "Albanian", 
+    "Albanian language", 
+    "sq", 
+    45630, 
+    218, 
+    27
+  ], 
+  [
+    "Breton", 
+    "Breton language", 
+    "br", 
+    45630, 
+    105, 
+    20
+  ], 
+  [
+    "Armenian", 
+    "Armenian language", 
+    "hy", 
+    45444, 
+    199, 
+    83
+  ], 
+  [
+    "Malagasy", 
+    "Malagasy language", 
+    "mg", 
+    45362, 
+    29, 
+    32
+  ], 
+  [
+    "Tatar", 
+    "Tatar language", 
+    "tt", 
+    43885, 
+    66, 
+    10
+  ], 
+  [
+    "Javanese", 
+    "Javanese language", 
+    "jv", 
+    43783, 
+    84, 
+    13
+  ], 
+  [
+    "Marathi", 
+    "Marathi language", 
+    "mr", 
+    38740, 
+    121, 
+    53
+  ], 
+  [
+    "Luxembourgish", 
+    "Luxembourgish language", 
+    "lb", 
+    38672, 
+    86, 
+    22
+  ], 
+  [
+    "Icelandic", 
+    "Icelandic language", 
+    "is", 
+    35768, 
+    158, 
+    43
+  ], 
+  [
+    "Burmese", 
+    "Burmese language", 
+    "my", 
+    31309, 
+    49, 
+    1
+  ], 
+  [
+    "Yoruba", 
+    "Yoruba language", 
+    "yo", 
+    30584, 
+    35, 
+    5
+  ], 
+  [
+    "Bashkir", 
+    "Bashkir language", 
+    "ba", 
+    30544, 
+    58, 
+    8
+  ], 
+  [
+    "Malayalam", 
+    "Malayalam language", 
+    "ml", 
+    30541, 
+    293, 
+    296
+  ], 
+  [
+    "Aragonese", 
+    "Aragonese language", 
+    "an", 
+    29172, 
+    87, 
+    85
+  ], 
+  [
+    "Lombard", 
+    "Lombard language", 
+    "lmo", 
+    28669, 
+    59, 
+    32
+  ], 
+  [
+    "Afrikaans", 
+    "Afrikaans language", 
+    "af", 
+    26806, 
+    150, 
+    38
+  ], 
+  [
+    "West Frisian", 
+    "West Frisian language", 
+    "fy", 
+    26497, 
+    77, 
+    14
+  ], 
+  [
+    "Western Panjabi", 
+    "Western Panjabi language", 
+    "pnb", 
+    26352, 
+    38, 
+    0
+  ], 
+  [
+    "Bengali", 
+    "Bengali language", 
+    "bn", 
+    26041, 
+    288, 
+    0
+  ], 
+  [
+    "Swahili", 
+    "Swahili language", 
+    "sw", 
+    25272, 
+    62, 
+    37
+  ], 
+  [
+    "Bishnupriya Manipuri", 
+    "Bishnupriya Manipuri language", 
+    "bpy", 
+    24800, 
+    24, 
+    23
+  ], 
+  [
+    "Ido", 
+    "Ido language", 
+    "io", 
+    24777, 
+    51, 
+    5
+  ], 
+  [
+    "Kirghiz", 
+    "Kirghiz language", 
+    "ky", 
+    24460, 
+    54, 
+    1
+  ], 
+  [
+    "Urdu", 
+    "Urdu language", 
+    "ur", 
+    24060, 
+    78, 
+    77
+  ], 
+  [
+    "Nepali", 
+    "Nepali language", 
+    "ne", 
+    23290, 
+    75, 
+    10
+  ], 
+  [
+    "Sicilian", 
+    "Sicilian language", 
+    "scn", 
+    22970, 
+    61, 
+    22
+  ], 
+  [
+    "Cantonese", 
+    "Cantonese language", 
+    "zh-yue", 
+    22849, 
+    164, 
+    54
+  ], 
+  [
+    "Gujarati", 
+    "Gujarati language", 
+    "gu", 
+    22530, 
+    72, 
+    5
+  ], 
+  [
+    "Low Saxon", 
+    "Low Saxon language", 
+    "nds", 
+    20511, 
+    61, 
+    31
+  ], 
+  [
+    "Irish", 
+    "Irish language", 
+    "ga", 
+    19677, 
+    55, 
+    17
+  ], 
+  [
+    "Kurdish", 
+    "Kurdish language", 
+    "ku", 
+    19627, 
+    63, 
+    25
+  ], 
+  [
+    "Asturian", 
+    "Asturian language", 
+    "ast", 
+    18668, 
+    76, 
+    15
+  ], 
+  [
+    "Quechua", 
+    "Quechua language", 
+    "qu", 
+    18122, 
+    35, 
+    37
+  ], 
+  [
+    "Sundanese", 
+    "Sundanese language", 
+    "su", 
+    17484, 
+    41, 
+    14
+  ], 
+  [
+    "Chuvash", 
+    "Chuvash language", 
+    "cv", 
+    15566, 
+    46, 
+    18
+  ], 
+  [
+    "Scots", 
+    "Scots language", 
+    "sco", 
+    14482, 
+    68, 
+    42
+  ], 
+  [
+    "Alemannic", 
+    "Alemannic language", 
+    "als", 
+    14417, 
+    94, 
+    29
+  ], 
+  [
+    "Interlingua", 
+    "Interlingua language", 
+    "ia", 
+    13978, 
+    52, 
+    11
+  ], 
+  [
+    "Neapolitan", 
+    "Neapolitan language", 
+    "nap", 
+    13826, 
+    35, 
+    22
+  ], 
+  [
+    "Buginese", 
+    "Buginese language", 
+    "bug", 
+    13819, 
+    17, 
+    1
+  ], 
+  [
+    "Samogitian", 
+    "Samogitian language", 
+    "bat-smg", 
+    13456, 
+    26, 
+    8
+  ], 
+  [
+    "Kannada", 
+    "Kannada language", 
+    "kn", 
+    13034, 
+    131, 
+    27
+  ], 
+  [
+    "Banyumasan", 
+    "Banyumasan language", 
+    "map-bms", 
+    12993, 
+    23, 
+    7
+  ], 
+  [
+    "Walloon", 
+    "Walloon language", 
+    "wa", 
+    12803, 
+    27, 
+    23
+  ], 
+  [
+    "Amharic", 
+    "Amharic language", 
+    "am", 
+    12445, 
+    31, 
+    35
+  ], 
+  [
+    "Sorani", 
+    "Sorani language", 
+    "ckb", 
+    12160, 
+    66, 
+    27
+  ], 
+  [
+    "Scottish Gaelic", 
+    "Scottish Gaelic language", 
+    "gd", 
+    11478, 
+    45, 
+    11
+  ], 
+  [
+    "Fiji Hindi", 
+    "Fiji Hindi language", 
+    "hif", 
+    11047, 
+    40, 
+    7
+  ], 
+  [
+    "Min Nan", 
+    "Min Nan language", 
+    "zh-min-nan", 
+    11007, 
+    41, 
+    40
+  ], 
+  [
+    "Tajik", 
+    "Tajik language", 
+    "tg", 
+    10866, 
+    45, 
+    13
+  ], 
+  [
+    "Egyptian Arabic", 
+    "Egyptian Arabic language", 
+    "arz", 
+    10405, 
+    97, 
+    287
+  ], 
+  [
+    "Mazandarani", 
+    "Mazandarani language", 
+    "mzn", 
+    10382, 
+    30, 
+    6
+  ], 
+  [
+    "Yiddish", 
+    "Yiddish language", 
+    "yi", 
+    10135, 
+    55, 
+    73
+  ], 
+  [
+    "Venetian", 
+    "Venetian language", 
+    "vec", 
+    10083, 
+    47, 
+    76
+  ], 
+  [
+    "Mongolian", 
+    "Mongolian language", 
+    "mn", 
+    9469, 
+    253, 
+    46
+  ], 
+  [
+    "Nahuatl", 
+    "Nahuatl language", 
+    "nah", 
+    9203, 
+    34, 
+    22
+  ], 
+  [
+    "Tarantino", 
+    "Tarantino language", 
+    "roa-tara", 
+    9173, 
+    24, 
+    5
+  ], 
+  [
+    "Sakha", 
+    "Sakha language", 
+    "sah", 
+    9041, 
+    29, 
+    41
+  ], 
+  [
+    "Sanskrit", 
+    "Sanskrit language", 
+    "sa", 
+    9027, 
+    41, 
+    22
+  ], 
+  [
+    "Ossetian", 
+    "Ossetian language", 
+    "os", 
+    8942, 
+    37, 
+    104
+  ], 
+  [
+    "Kapampangan", 
+    "Kapampangan language", 
+    "pam", 
+    7795, 
+    34, 
+    22
+  ], 
+  [
+    "Upper Sorbian", 
+    "Upper Sorbian language", 
+    "hsb", 
+    7735, 
+    38, 
+    37
+  ], 
+  [
+    "Sinhalese", 
+    "Sinhalese language", 
+    "si", 
+    7644, 
+    57, 
+    116
+  ], 
+  [
+    "Northern Sami", 
+    "Northern Sami language", 
+    "se", 
+    7471, 
+    26, 
+    22
+  ], 
+  [
+    "Bavarian", 
+    "Bavarian language", 
+    "bar", 
+    7363, 
+    76, 
+    100
+  ], 
+  [
+    "Limburgish", 
+    "Limburgish language", 
+    "li", 
+    7274, 
+    42, 
+    71
+  ], 
+  [
+    "Maori", 
+    "Maori language", 
+    "mi", 
+    7030, 
+    24, 
+    7
+  ], 
+  [
+    "Corsican", 
+    "Corsican language", 
+    "co", 
+    6482, 
+    33, 
+    24
+  ], 
+  [
+    "Ilokano", 
+    "Ilokano language", 
+    "ilo", 
+    6147, 
+    26, 
+    41
+  ], 
+  [
+    "Gan", 
+    "Gan language", 
+    "gan", 
+    6127, 
+    30, 
+    227
+  ], 
+  [
+    "Faroese", 
+    "Faroese language", 
+    "fo", 
+    6108, 
+    39, 
+    52
+  ], 
+  [
+    "Tibetan", 
+    "Tibetan language", 
+    "bo", 
+    6062, 
+    43, 
+    19
+  ], 
+  [
+    "Punjabi", 
+    "Punjabi language", 
+    "pa", 
+    6033, 
+    50, 
+    32
+  ], 
+  [
+    "Gilaki", 
+    "Gilaki language", 
+    "glk", 
+    6013, 
+    20, 
+    3
+  ], 
+  [
+    "Rusyn", 
+    "Rusyn language", 
+    "rue", 
+    5940, 
+    17, 
+    2
+  ], 
+  [
+    "Central_Bicolano", 
+    "Central Bicolano language", 
+    "bcl", 
+    5609, 
+    26, 
+    9
+  ], 
+  [
+    "V\u00f5ro", 
+    "V\u00f5ro language", 
+    "fiu-vro", 
+    5111, 
+    31, 
+    11
+  ], 
+  [
+    "Hill Mari", 
+    "Hill Mari language", 
+    "mrj", 
+    5107, 
+    16, 
+    4
+  ], 
+  [
+    "Dutch Low Saxon", 
+    "Dutch Low Saxon language", 
+    "nds-nl", 
+    5093, 
+    42, 
+    64
+  ], 
+  [
+    "Turkmen", 
+    "Turkmen language", 
+    "tk", 
+    4768, 
+    31, 
+    29
+  ], 
+  [
+    "Pashto", 
+    "Pashto language", 
+    "ps", 
+    4718, 
+    27, 
+    31
+  ], 
+  [
+    "West Flemish", 
+    "West Flemish language", 
+    "vls", 
+    4662, 
+    26, 
+    85
+  ], 
+  [
+    "Mingrelian", 
+    "Mingrelian language", 
+    "xmf", 
+    4602, 
+    24, 
+    32
+  ], 
+  [
+    "Manx", 
+    "Manx language", 
+    "gv", 
+    4515, 
+    22, 
+    131
+  ], 
+  [
+    "Zazaki", 
+    "Zazaki language", 
+    "diq", 
+    4116, 
+    42, 
+    206
+  ], 
+  [
+    "Oriya", 
+    "Oriya language", 
+    "or", 
+    3920, 
+    41, 
+    146
+  ], 
+  [
+    "Komi", 
+    "Komi language", 
+    "kv", 
+    3864, 
+    19, 
+    24
+  ], 
+  [
+    "Pangasinan", 
+    "Pangasinan language", 
+    "pag", 
+    3846, 
+    14, 
+    3
+  ], 
+  [
+    "Zeelandic", 
+    "Zeelandic language", 
+    "zea", 
+    3740, 
+    25, 
+    8
+  ], 
+  [
+    "Khmer", 
+    "Khmer language", 
+    "km", 
+    3737, 
+    58, 
+    123
+  ], 
+  [
+    "Divehi", 
+    "Divehi language", 
+    "dv", 
+    3658, 
+    25, 
+    40
+  ], 
+  [
+    "Norman", 
+    "Norman language", 
+    "nrm", 
+    3545, 
+    17, 
+    39
+  ], 
+  [
+    "Meadow Mari", 
+    "Meadow Mari language", 
+    "mhr", 
+    3440, 
+    26, 
+    55
+  ], 
+  [
+    "Romansh", 
+    "Romansh language", 
+    "rm", 
+    3432, 
+    32, 
+    31
+  ], 
+  [
+    "Komi-Permyak", 
+    "Komi-Permyak language", 
+    "koi", 
+    3427, 
+    15, 
+    9
+  ], 
+  [
+    "Udmurt", 
+    "Udmurt language", 
+    "udm", 
+    3369, 
+    37, 
+    23
+  ], 
+  [
+    "Kashubian", 
+    "Kashubian language", 
+    "csb", 
+    3324, 
+    22, 
+    23
+  ], 
+  [
+    "North Frisian", 
+    "North Frisian language", 
+    "frr", 
+    3312, 
+    17, 
+    43
+  ], 
+  [
+    "Vepsian", 
+    "Vepsian language", 
+    "vep", 
+    3260, 
+    18, 
+    9
+  ], 
+  [
+    "Ladino", 
+    "Ladino language", 
+    "lad", 
+    3233, 
+    39, 
+    67
+  ], 
+  [
+    "Ligurian", 
+    "Ligurian language", 
+    "lij", 
+    3150, 
+    28, 
+    75
+  ], 
+  [
+    "Wu", 
+    "Wu language", 
+    "wuu", 
+    3140, 
+    38, 
+    107
+  ], 
+  [
+    "Friulian", 
+    "Friulian language", 
+    "fur", 
+    3067, 
+    20, 
+    33
+  ], 
+  [
+    "Classical Chinese", 
+    "Classical Chinese language", 
+    "zh-classical", 
+    2980, 
+    44, 
+    0
+  ], 
+  [
+    "Uyghur", 
+    "Uyghur language", 
+    "ug", 
+    2925, 
+    26, 
+    56
+  ], 
+  [
+    "Saterland Frisian", 
+    "Saterland Frisian language", 
+    "stq", 
+    2918, 
+    22, 
+    41
+  ], 
+  [
+    "Sardinian", 
+    "Sardinian language", 
+    "sc", 
+    2915, 
+    28, 
+    68
+  ], 
+  [
+    "Aymara", 
+    "Aymara language", 
+    "ay", 
+    2838, 
+    23, 
+    18
+  ], 
+  [
+    "Maltese", 
+    "Maltese language", 
+    "mt", 
+    2818, 
+    42, 
+    248
+  ], 
+  [
+    "Pali", 
+    "Pali language", 
+    "pi", 
+    2807, 
+    12, 
+    6
+  ], 
+  [
+    "Somali", 
+    "Somali language", 
+    "so", 
+    2760, 
+    52, 
+    69
+  ], 
+  [
+    "Bihari", 
+    "Bihari language", 
+    "bh", 
+    2717, 
+    13, 
+    35
+  ], 
+  [
+    "Ripuarian", 
+    "Ripuarian language", 
+    "ksh", 
+    2663, 
+    24, 
+    0
+  ], 
+  [
+    "Novial", 
+    "Novial language", 
+    "nov", 
+    2659, 
+    18, 
+    24
+  ], 
+  [
+    "Anglo-Saxon", 
+    "Anglo-Saxon language", 
+    "ang", 
+    2528, 
+    42, 
+    221
+  ], 
+  [
+    "Hakka", 
+    "Hakka language", 
+    "hak", 
+    2494, 
+    31, 
+    21
+  ], 
+  [
+    "Cornish", 
+    "Cornish language", 
+    "kw", 
+    2457, 
+    23, 
+    75
+  ], 
+  [
+    "Navajo", 
+    "Navajo language", 
+    "nv", 
+    2426, 
+    17, 
+    204
+  ], 
+  [
+    "Picard", 
+    "Picard language", 
+    "pcd", 
+    2422, 
+    27, 
+    16
+  ], 
+  [
+    "Guarani", 
+    "Guarani language", 
+    "gn", 
+    2341, 
+    22, 
+    46
+  ], 
+  [
+    "Extremaduran", 
+    "Extremaduran language", 
+    "ext", 
+    2264, 
+    22, 
+    38
+  ], 
+  [
+    "Franco-Proven\u00e7al/Arpitan", 
+    "Franco-Proven\u00e7al/Arpitan language", 
+    "frp", 
+    2248, 
+    20, 
+    58
+  ], 
+  [
+    "Assamese", 
+    "Assamese language", 
+    "as", 
+    2222, 
+    48, 
+    0
+  ], 
+  [
+    "Silesian", 
+    "Silesian language", 
+    "szl", 
+    2123, 
+    23, 
+    256
+  ], 
+  [
+    "Gagauz", 
+    "Gagauz language", 
+    "gag", 
+    2091, 
+    17, 
+    20
+  ], 
+  [
+    "Emilian-Romagnol", 
+    "Emilian-Romagnol language", 
+    "eml", 
+    2078, 
+    26, 
+    116
+  ], 
+  [
+    "Interlingue", 
+    "Interlingue language", 
+    "ie", 
+    2056, 
+    22, 
+    39
+  ], 
+  [
+    "Lingala", 
+    "Lingala language", 
+    "ln", 
+    2029, 
+    21, 
+    82
+  ], 
+  [
+    "Acehnese", 
+    "Acehnese language", 
+    "ace", 
+    2011, 
+    53, 
+    43
+  ], 
+  [
+    "Chechen", 
+    "Chechen language", 
+    "ce", 
+    1997, 
+    37, 
+    103
+  ], 
+  [
+    "Karachay-Balkar", 
+    "Karachay-Balkar language", 
+    "krc", 
+    1881, 
+    22, 
+    209
+  ], 
+  [
+    "Palatinate German", 
+    "Palatinate German language", 
+    "pfl", 
+    1879, 
+    24, 
+    15
+  ], 
+  [
+    "Kalmyk", 
+    "Kalmyk language", 
+    "xal", 
+    1872, 
+    19, 
+    95
+  ], 
+  [
+    "Hawaiian", 
+    "Hawaiian language", 
+    "haw", 
+    1865, 
+    16, 
+    28
+  ], 
+  [
+    "Pennsylvania German", 
+    "Pennsylvania German language", 
+    "pdc", 
+    1824, 
+    22, 
+    61
+  ], 
+  [
+    "Kinyarwanda", 
+    "Kinyarwanda language", 
+    "rw", 
+    1818, 
+    17, 
+    42
+  ], 
+  [
+    "Crimean Tatar", 
+    "Crimean Tatar language", 
+    "crh", 
+    1797, 
+    21, 
+    226
+  ], 
+  [
+    "Tongan", 
+    "Tongan language", 
+    "to", 
+    1647, 
+    10, 
+    39
+  ], 
+  [
+    "Lower Sorbian", 
+    "Lower Sorbian language", 
+    "dsb", 
+    1627, 
+    22, 
+    194
+  ], 
+  [
+    "Greenlandic", 
+    "Greenlandic language", 
+    "kl", 
+    1595, 
+    21, 
+    53
+  ], 
+  [
+    "Aramaic", 
+    "Aramaic language", 
+    "arc", 
+    1579, 
+    20, 
+    120
+  ], 
+  [
+    "Erzya", 
+    "Erzya language", 
+    "myv", 
+    1547, 
+    16, 
+    42
+  ], 
+  [
+    "Kabyle", 
+    "Kabyle language", 
+    "kab", 
+    1506, 
+    24, 
+    57
+  ], 
+  [
+    "Lezgian", 
+    "Lezgian language", 
+    "lez", 
+    1492, 
+    22, 
+    32
+  ], 
+  [
+    "Banjar", 
+    "Banjar language", 
+    "bjn", 
+    1441, 
+    22, 
+    122
+  ], 
+  [
+    "Shona", 
+    "Shona language", 
+    "sn", 
+    1421, 
+    15, 
+    23
+  ], 
+  [
+    "Papiamentu", 
+    "Papiamentu language", 
+    "pap", 
+    1328, 
+    26, 
+    51
+  ], 
+  [
+    "Tok Pisin", 
+    "Tok Pisin language", 
+    "tpi", 
+    1236, 
+    23, 
+    192
+  ], 
+  [
+    "Lak", 
+    "Lak language", 
+    "lbe", 
+    1191, 
+    16, 
+    142
+  ], 
+  [
+    "Wolof", 
+    "Wolof language", 
+    "wo", 
+    1161, 
+    15, 
+    241
+  ], 
+  [
+    "Lojban", 
+    "Lojban language", 
+    "jbo", 
+    1155, 
+    19, 
+    319
+  ], 
+  [
+    "Moksha", 
+    "Moksha language", 
+    "mdf", 
+    1144, 
+    12, 
+    69
+  ], 
+  [
+    "Zamboanga Chavacano", 
+    "Zamboanga Chavacano language", 
+    "cbk-zam", 
+    1120, 
+    20, 
+    77
+  ], 
+  [
+    "Avar", 
+    "Avar language", 
+    "av", 
+    1094, 
+    21, 
+    122
+  ], 
+  [
+    "Kabardian Circassian", 
+    "Kabardian Circassian language", 
+    "kbd", 
+    1055, 
+    21, 
+    36
+  ], 
+  [
+    "Sranan", 
+    "Sranan language", 
+    "srn", 
+    1034, 
+    12, 
+    29
+  ], 
+  [
+    "Mirandese", 
+    "Mirandese language", 
+    "mwl", 
+    1012, 
+    28, 
+    270
+  ], 
+  [
+    "Tahitian", 
+    "Tahitian language", 
+    "ty", 
+    886, 
+    12, 
+    91
+  ], 
+  [
+    "Lao", 
+    "Lao language", 
+    "lo", 
+    848, 
+    20, 
+    210
+  ], 
+  [
+    "Abkhazian", 
+    "Abkhazian language", 
+    "ab", 
+    807, 
+    24, 
+    163
+  ], 
+  [
+    "Tetum", 
+    "Tetum language", 
+    "tet", 
+    773, 
+    15, 
+    77
+  ], 
+  [
+    "Latgalian", 
+    "Latgalian language", 
+    "ltg", 
+    758, 
+    8, 
+    61
+  ], 
+  [
+    "Kongo", 
+    "Kongo language", 
+    "kg", 
+    742, 
+    17, 
+    64
+  ], 
+  [
+    "Nauruan", 
+    "Nauruan language", 
+    "na", 
+    731, 
+    18, 
+    384
+  ], 
+  [
+    "Igbo", 
+    "Igbo language", 
+    "ig", 
+    723, 
+    15, 
+    264
+  ], 
+  [
+    "Buryat (Russia)", 
+    "Buryat (Russia) language", 
+    "bxr", 
+    699, 
+    18, 
+    175
+  ], 
+  [
+    "Northern Sotho", 
+    "Northern Sotho language", 
+    "nso", 
+    687, 
+    10, 
+    17
+  ], 
+  [
+    "Zhuang", 
+    "Zhuang language", 
+    "za", 
+    663, 
+    19, 
+    68
+  ], 
+  [
+    "Karakalpak", 
+    "Karakalpak language", 
+    "kaa", 
+    621, 
+    19, 
+    118
+  ], 
+  [
+    "Zulu", 
+    "Zulu language", 
+    "zu", 
+    583, 
+    27, 
+    233
+  ], 
+  [
+    "Cheyenne", 
+    "Cheyenne language", 
+    "chy", 
+    561, 
+    17, 
+    58
+  ], 
+  [
+    "Romani", 
+    "Romani language", 
+    "rmy", 
+    541, 
+    15, 
+    223
+  ], 
+  [
+    "Aromanian", 
+    "Aromanian language", 
+    "roa-rup", 
+    511, 
+    23, 
+    0
+  ], 
+  [
+    "Old Church Slavonic", 
+    "Old Church Slavonic language", 
+    "cu", 
+    511, 
+    19, 
+    0
+  ], 
+  [
+    "Tswana", 
+    "Tswana language", 
+    "tn", 
+    495, 
+    14, 
+    86
+  ], 
+  [
+    "Cherokee", 
+    "Cherokee language", 
+    "chr", 
+    472, 
+    27, 
+    381
+  ], 
+  [
+    "Bislama", 
+    "Bislama language", 
+    "bi", 
+    451, 
+    20, 
+    154
+  ], 
+  [
+    "Min Dong", 
+    "Min Dong language", 
+    "cdo", 
+    438, 
+    17, 
+    369
+  ], 
+  [
+    "Gothic", 
+    "Gothic language", 
+    "got", 
+    431, 
+    13, 
+    404
+  ], 
+  [
+    "Samoan", 
+    "Samoan language", 
+    "sm", 
+    428, 
+    15, 
+    354
+  ], 
+  [
+    "Moldovan", 
+    "Moldovan language", 
+    "mo", 
+    401, 
+    0, 
+    100
+  ], 
+  [
+    "Bambara", 
+    "Bambara language", 
+    "bm", 
+    393, 
+    15, 
+    469
+  ], 
+  [
+    "Inuktitut", 
+    "Inuktitut language", 
+    "iu", 
+    388, 
+    17, 
+    0
+  ], 
+  [
+    "Norfolk", 
+    "Norfolk language", 
+    "pih", 
+    382, 
+    13, 
+    225
+  ], 
+  [
+    "Pontic", 
+    "Pontic language", 
+    "pnt", 
+    374, 
+    13, 
+    243
+  ], 
+  [
+    "Sindhi", 
+    "Sindhi language", 
+    "sd", 
+    364, 
+    12, 
+    0
+  ], 
+  [
+    "Swati", 
+    "Swati language", 
+    "ss", 
+    364, 
+    16, 
+    271
+  ], 
+  [
+    "Kikuyu", 
+    "Kikuyu language", 
+    "ki", 
+    342, 
+    13, 
+    136
+  ], 
+  [
+    "Ewe", 
+    "Ewe language", 
+    "ee", 
+    300, 
+    16, 
+    0
+  ], 
+  [
+    "Hausa", 
+    "Hausa language", 
+    "ha", 
+    289, 
+    16, 
+    370
+  ], 
+  [
+    "Oromo", 
+    "Oromo language", 
+    "om", 
+    275, 
+    16, 
+    0
+  ], 
+  [
+    "Fijian", 
+    "Fijian language", 
+    "fj", 
+    272, 
+    20, 
+    474
+  ], 
+  [
+    "Tigrinya", 
+    "Tigrinya language", 
+    "ti", 
+    258, 
+    18, 
+    224
+  ], 
+  [
+    "Tsonga", 
+    "Tsonga language", 
+    "ts", 
+    240, 
+    14, 
+    0
+  ], 
+  [
+    "Kashmiri", 
+    "Kashmiri language", 
+    "ks", 
+    227, 
+    14, 
+    0
+  ], 
+  [
+    "Venda", 
+    "Venda language", 
+    "ve", 
+    204, 
+    15, 
+    347
+  ], 
+  [
+    "Sango", 
+    "Sango language", 
+    "sg", 
+    195, 
+    11, 
+    0
+  ], 
+  [
+    "Kirundi", 
+    "Kirundi language", 
+    "rn", 
+    190, 
+    16, 
+    415
+  ], 
+  [
+    "Sesotho", 
+    "Sesotho language", 
+    "st", 
+    189, 
+    11, 
+    0
+  ], 
+  [
+    "Dzongkha", 
+    "Dzongkha language", 
+    "dz", 
+    179, 
+    15, 
+    0
+  ], 
+  [
+    "Akan", 
+    "Akan language", 
+    "ak", 
+    176, 
+    19, 
+    0
+  ], 
+  [
+    "Cree", 
+    "Cree language", 
+    "cr", 
+    170, 
+    18, 
+    0
+  ], 
+  [
+    "Tumbuka", 
+    "Tumbuka language", 
+    "tum", 
+    167, 
+    14, 
+    0
+  ], 
+  [
+    "Luganda", 
+    "Luganda language", 
+    "lg", 
+    166, 
+    14, 
+    0
+  ], 
+  [
+    "Inupiak", 
+    "Inupiak language", 
+    "ik", 
+    164, 
+    14, 
+    0
+  ], 
+  [
+    "Fula", 
+    "Fula language", 
+    "ff", 
+    164, 
+    16, 
+    0
+  ], 
+  [
+    "Chichewa", 
+    "Chichewa language", 
+    "ny", 
+    164, 
+    13, 
+    0
+  ], 
+  [
+    "Twi", 
+    "Twi language", 
+    "tw", 
+    158, 
+    17, 
+    461
+  ], 
+  [
+    "Chamorro", 
+    "Chamorro language", 
+    "ch", 
+    157, 
+    18, 
+    0
+  ], 
+  [
+    "Xhosa", 
+    "Xhosa language", 
+    "xh", 
+    148, 
+    18, 
+    0
+  ], 
+  [
+    "Ndonga", 
+    "Ndonga language", 
+    "ng", 
+    21, 
+    0, 
+    0
+  ], 
+  [
+    "Sichuan Yi", 
+    "Sichuan Yi language", 
+    "ii", 
+    16, 
+    0, 
+    0
+  ], 
+  [
+    "Choctaw", 
+    "Choctaw language", 
+    "cho", 
+    15, 
+    0, 
+    0
+  ], 
+  [
+    "Marshallese", 
+    "Marshallese language", 
+    "mh", 
+    10, 
+    0, 
+    0
+  ], 
+  [
+    "Afar", 
+    "Afar language", 
+    "aa", 
+    6, 
+    0, 
+    0
+  ], 
+  [
+    "Kuanyama", 
+    "Kuanyama language", 
+    "kj", 
+    5, 
+    0, 
+    0
+  ], 
+  [
+    "Hiri Motu", 
+    "Hiri Motu language", 
+    "ho", 
+    3, 
+    0, 
+    0
+  ], 
+  [
+    "Muscogee", 
+    "Muscogee language", 
+    "mus", 
+    2, 
+    0, 
+    0
+  ], 
+  [
+    "Kanuri", 
+    "Kanuri language", 
+    "kr", 
+    1, 
+    0, 
+    0
+  ], 
+  [
+    "Herero", 
+    "Herero language", 
+    "hz", 
+    0, 
+    0, 
+    0
+  ]
+]
