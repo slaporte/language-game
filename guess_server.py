@@ -9,7 +9,7 @@ from collections import namedtuple
 from pyquery import PyQuery
 
 import wapiti
-from clastic import Application
+from clastic import Application, json_response
 from clastic.render.mako_templates import MakoRenderFactory
 
 
@@ -103,7 +103,7 @@ def language_game(attempt=0):
 
 
 def create_game():
-    routes = [('/', language_game, 'layout.html')]
+    routes = [('/json', language_game, json_response)]
     mako_render = MakoRenderFactory(_TEMPLATE_PATH)
     return Application(routes, None, mako_render)
 
