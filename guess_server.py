@@ -103,7 +103,8 @@ def language_game(attempt=0):
 
 
 def create_game():
-    routes = [('/json', language_game, json_response)]
+    routes = [('/json', language_game, json_response),
+              ('/', language_game, 'layout.html')]
     mako_render = MakoRenderFactory(_TEMPLATE_PATH)
     return Application(routes, None, mako_render)
 
