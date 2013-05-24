@@ -15,7 +15,7 @@ from clastic.render.mako_templates import MakoRenderFactory
 
 WikiLangInfo = namedtuple('WikiLangInfo',
                           'name, en_article_name, shortcode, article_count, '
-                          'active_user_count, depth')
+                          'active_user_count, depth, description')
 
 
 _CURDIR = os.path.abspath(os.path.dirname(__file__))
